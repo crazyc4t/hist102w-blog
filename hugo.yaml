@@ -1,6 +1,6 @@
 ---
 title: "The Chinese Head Tax in Canada; A Historical Overview"
-baseURL: "https://hist102w-blog.crazyc4t.github.com/"
+baseURL: "https://crazyc4t.github.com/hist102w-blog/"
 theme: "github.com/frjo/hugo-theme-zen/v5"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
@@ -67,18 +67,6 @@ languages:
         - Name: "Blog"
           weight: 2
           pageRef: "/blog/"
-        - Name: "Podcast"
-          weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
-          weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
-          weight: 8
-          pageRef: "/misc/"
         - Name: "Search"
           weight: 10
           pageRef: "/search/"
-        - Name: "Contact"
-          weight: 12
-          pageRef: "/contact/"
