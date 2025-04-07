@@ -67,6 +67,6 @@ languages:
         - Name: "Blog"
           weight: 2
           pageRef: "/blog/"
-        - Name: "Search"
-          weight: 10
-          pageRef: "/search/"
+        - Name: "References"
+          weight: 3
+          pageRef: "/references/"
