@@ -1,6 +1,6 @@
 ---
-title: "Zen demo site"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "The Chinese Head Tax in Canada; A Historical Overview"
+baseURL: "https://hist102w-blog.crazyc4t.github.com/"
 theme: "github.com/frjo/hugo-theme-zen/v5"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
@@ -27,14 +27,14 @@ outputFormats:
     notAlternative: true
 
 outputs:
-  home: ["HTML","RSS", "JSON", "SearchIndex"]
-  section: ["HTML","RSS", "JSON"]
+  home: ["HTML", "RSS", "JSON", "SearchIndex"]
+  section: ["HTML", "RSS", "JSON"]
 
 params:
   author:
-    name: "Fredrik Jonsson"
-    url: "https://xdeb.org"
-  contact: "frjo@xdeb.org"
+    name: "Said Neder"
+    url: "https://sfu.ca"
+  contact: "san11@sfu.ca"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
@@ -82,15 +82,3 @@ languages:
         - Name: "Contact"
           weight: 12
           pageRef: "/contact/"
-
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
-    menu:
-      main:
-        - Name: "Hem"
-          weight: -10
-          pageRef: "/"
-
